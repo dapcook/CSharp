@@ -33,7 +33,7 @@ namespace CommandLine.Utility
       }
 
       // Constructor
-      public Arguments(string[] Args)
+      public Arguments(string[] Args) 
       {
          Parameters = new StringDictionary();
          Regex Spliter = new Regex(@"^-{1,2}|^/|=|:", RegexOptions.IgnoreCase | RegexOptions.Compiled);
